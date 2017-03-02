@@ -12,24 +12,7 @@ public class TestFrame extends JFrame implements KeyListener{
 		fr.setSize(200,300);
 		fr.setVisible(true);
 		fr.setFocusable(true);
-	}
-	
-	@Override
-	public void keyPressed(KeyEvent e) {
-		// TODO Auto-generated method stub
-		System.out.println("Test");
-	}
-
-	@Override
-	public void keyReleased(KeyEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void keyTyped(KeyEvent e) {
-		// TODO Auto-generated method stub
-		System.out.println("Test");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 
 }
